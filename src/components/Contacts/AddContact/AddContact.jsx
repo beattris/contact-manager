@@ -39,8 +39,8 @@ const AddContact = () => {
                   </select>
                 </div>
                 <div className="mb-2">
-                  <input type="submit" className="btn btn-success" value="Add Contact"/>
-                  <Link to={'/contacts/list'} className="btn btn-dark ms-2">Close</Link>
+                  <input type="submit" className="btn btn-success mt-1 bump" value="Add Contact"/>
+                  <Link to={'/contacts/list'} className="btn btn-dark ms-2 mt-1 bump">Cancel</Link>
                 </div>
               </form>
             </div>
