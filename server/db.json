@@ -1,0 +1,60 @@
+{
+  "contacts": [
+    {
+      "id": "AAodkos123",
+      "name": "Trisia",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1024px-Crystal_Clear_kdm_user_female.svg.png",
+      "mobile": "88883773832",
+      "email": " trisia@gmail.com",
+      "title": "Software Engineer",
+      "company": "Trisia Tech",
+      "Group": "1"
+    },
+    {
+      "id": "AAdkFs123",
+      "name": "John",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/19/Boss-icon.png",
+      "mobile": "82253873832",
+      "email": " john@gmail.com",
+      "title": "Technical Writer",
+      "company": "Writer's globe",
+      "Group": "2"
+    },
+    {
+      "id": "AAodkHJ123",
+      "name": "Eve",
+      "photo": "https://www.freeiconspng.com/uploads/female-icon-28.png",
+      "mobile": "8903783773832",
+      "email": " eve@gmail.com",
+      "title": "Sales Manager",
+      "company": "BestSales",
+      "Group": "3"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "Social"
+    }
+  ]
+}
