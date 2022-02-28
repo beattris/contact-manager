@@ -8,7 +8,7 @@
       "email": " trisia@gmail.com",
       "title": "Software Engineer",
       "company": "Trisia Tech",
-      "Group": "1"
+      "groupId": "1"
     },
     {
       "id": "AAdkFs123",
@@ -18,7 +18,7 @@
       "email": " john@gmail.com",
       "title": "Technical Writer",
       "company": "Writer's globe",
-      "Group": "2"
+      "groupId": "2"
     },
     {
       "id": "AAodkHJ123",
@@ -28,7 +28,7 @@
       "email": " eve@gmail.com",
       "title": "Sales Manager",
       "company": "BestSales",
-      "Group": "3"
+      "groupId": "3"
     },
     {
       "id": "AACVMHJ123",
@@ -38,7 +38,7 @@
       "email": " alan@gmail.com",
       "title": "DevOps Engineer",
       "company": "Solutions Inc",
-      "Group": "4"
+      "groupId": "4"
     }
   ],
   "groups": [

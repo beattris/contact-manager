@@ -37,7 +37,6 @@ const ContactList = () => {
 
   return (
     <Fragment>
-      <pre>{JSON.stringify(contacts)}</pre>
       <section className="contact-search p-3">
         <div className="container">
           <div className="grid">
@@ -125,7 +124,7 @@ const ContactList = () => {
                               </div>
                               <div className="col-md-1 d-flex flex-column align-items-center">
                                 <Link
-                                  to={"/contacts/view/:contactId"}
+                                  to={`/contacts/view/${contact.id}`}
                                   className="btn btn-warning my-1"
                                 >
                                   <i className="fa fa-eye" />
