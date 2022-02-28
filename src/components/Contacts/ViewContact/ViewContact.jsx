@@ -10,16 +10,19 @@ const ViewContact = () => {
     loading: false,
     contact: {},
     errormessage: "",
+    group: {}
   });
 
   const viewContactsHandler = useCallback(async () => {
     try {
       setState({ ...state, loading: true });
       let response = await ContactService.getContact(contactId);
+      let groupResponse = await ContactService.getGroup(response.data);
       setState({
         ...state,
         loading: false,
         contact: response.data,
+        group: groupResponse.data
       });
     } catch (error) {
       setState({
@@ -34,7 +37,7 @@ const ViewContact = () => {
     viewContactsHandler();
   }, [viewContactsHandler]);
 
-  let { loading, contact, errormessage } = state;
+  let { loading, contact, errormessage, group } = state;
 
   return (
     <Fragment>
@@ -58,7 +61,7 @@ const ViewContact = () => {
         <Spinner />
       ) : (
         <Fragment>
-          {Object.keys(contact).length > 0 && (
+          {Object.keys(contact).length > 0 && Object.keys(group).length > 0 && (
             <section className="view-contact mt-3">
               <div className="container">
                 <div className="row align-items-center">
@@ -91,7 +94,7 @@ const ViewContact = () => {
                       </li>
                       <li className="list-group-item list-group-item-active">
                         Group :{" "}
-                        <span className="fw-bold">{contact.groupId}</span>
+                        <span className="fw-bold">{group.name}</span>
                       </li>
                     </ul>
                   </div>
